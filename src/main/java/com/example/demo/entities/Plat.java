@@ -1,6 +1,11 @@
 package com.example.demo.entities;
 
+import javax.persistence.Entity;
+import javax.persistence.Id;
+
+@Entity
 public class Plat {
+	@Id
 	private Long id;
 	private String nom;
 	private double prix;
